@@ -95,8 +95,31 @@ a{
 .about h3{
     text-align: center;
     padding: 20px;
+    width: fit-content;
+    margin: auto;
 }
 .about h3::after{
+    display: block;
+    content: "";
+    margin: 10px auto;
+    width: 20%;
+    height: 2px;
+    background-color: #100051;
+}
+
+/*Achivement*/
+.achivement{
+    padding: 50px 20px;
+    background-color: rgb(195, 255, 235);
+}
+
+.achivement h3{
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+}
+.achivement h3::after{
     display: block;
     content: "";
     margin: 10px auto;
