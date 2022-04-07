@@ -45,3 +45,14 @@ a{
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
 }
+.header3{
+    background-color: #100051;
+}
+.header3 ul{
+    list-style: none;
+    color: white;
+    margin: auto;
+}
+.header3 ul li{
+    padding: 10px 20px;
+}
