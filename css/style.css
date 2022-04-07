@@ -92,7 +92,7 @@ a{
     padding: 50px 0px;
     margin: auto;
 }
-.about h3{
+.about h3, .achivement h3, .news-media h3{
     text-align: center;
     padding: 20px;
     width: fit-content;
@@ -113,12 +113,7 @@ a{
     background-color: rgb(195, 255, 235);
 }
 
-.achivement h3{
-    text-align: center;
-    width: fit-content;
-    margin: auto;
-    padding: 20px;
-}
+
 .achivement h3::after{
     display: block;
     content: "";
@@ -126,4 +121,15 @@ a{
     width: 20%;
     height: 2px;
     background-color: #100051;
+}
+
+
+/*News and Media*/
+.news-media .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.news-media .grid img{
+    width: 100%;
 }
