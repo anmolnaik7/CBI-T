@@ -1,0 +1,33 @@
+body{
+    background-color: rebeccapurple;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    margin: 0px;
+    text-decoration: none;
+    color: black;
+    height: 120px;
+    
+}
+.header1{
+    height: 120px;
+}
+.header1 img{
+    height: 100%;
+    margin-right: 10px;
+    padding: 10px;
+}
+.logo span{
+    background-color: #100051;
+    width: 20px;
+    display:inline-block;
+    text-align: center;
+    margin-right: 2px;
+    color: white;
+}
+.logo h5{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
