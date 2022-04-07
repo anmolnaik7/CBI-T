@@ -4,6 +4,20 @@ body{
 a{
     text-decoration: none;
 }
+.header1 p{
+    margin: 0;
+}
+.header1{
+    background-color: #100051;
+    color: white;
+}
+.header1 .social a{
+    margin-left: 10px;
+    color: white;
+}
+.header1 .social a i{
+    margin: auto; 
+}
 .logo{
     margin: 0px;
     text-decoration: none;
@@ -11,17 +25,17 @@ a{
     height: 120px;
     
 }
-.header1{
+.header2{
     height: 120px;
 }
-.header1 img{
+.header2 img{
     height: 100%;
     margin-right: 10px;
     padding: 10px;
 }
 .logo span{
     background-color: #100051;
-    width: 20px;
+    width: 24px;
     display:inline-block;
     text-align: center;
     margin-right: 2px;
