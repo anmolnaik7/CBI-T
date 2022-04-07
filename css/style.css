@@ -2,7 +2,7 @@ body{
     background-color: rebeccapurple;
 }
 a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .header1 p{
     margin: 0;
@@ -50,9 +50,57 @@ a{
 }
 .header3 ul{
     list-style: none;
+    padding: 2px;
     color: white;
     margin: auto;
 }
-.header3 ul li{
+.header3 ul li a{
     padding: 10px 20px;
+    color: white;
+}
+
+.header3 ul li a:hover{
+    background-color: #0d6efd;
+}
+
+/* Carousel home*/
+#Carousel-main img{
+    height: 600px;
+    width: 100vw;
+}
+
+/*Marquee*/
+.marquee{
+    background-color: #100051;
+}
+.marquee ul li a{
+    color: white;
+}
+.marquee ul{
+    margin: 0;
+}
+.marquee ul li{
+    margin-right: 55px;
+    color: white;
+    
+    padding: 10px;
+}
+
+/*about*/
+.about{
+    width: 85%;
+    padding: 50px 0px;
+    margin: auto;
+}
+.about h3{
+    text-align: center;
+    padding: 20px;
+}
+.about h3::after{
+    display: block;
+    content: "";
+    margin: 10px auto;
+    width: 20%;
+    height: 2px;
+    background-color: #100051;
 }
