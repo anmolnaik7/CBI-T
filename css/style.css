@@ -6,20 +6,7 @@ a{
     
     display: block;
 }
-.header1 p{
-    margin: 0;
-}
-.header1{
-    background-color: #100051;
-    color: white;
-}
-.header1 .social a{
-    margin-left: 10px;
-    color: white;
-}
-.header1 .social a i{
-    margin: auto; 
-}
+
 .logo{
     margin: 0px;
     text-decoration: none;
@@ -27,10 +14,10 @@ a{
     height: 120px;
     
 }
-.header2{
+.header1{
     height: 120px;
 }
-.header2 img{
+.logo img{
     height: 100%;
     margin-right: 10px;
     padding: 10px;
@@ -47,27 +34,29 @@ a{
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
 }
-.header3{
+.header2{
     background-color: #100051;
 }
-.header3 ul{
+.header2 ul{
     list-style: none;
     padding: 2px;
     color: white;
     margin: auto;
 }
-.header3 ul li a{
+.header2 ul li a{
     padding: 10px 20px;
     color: white;
 }
 
-.header3 ul li a:hover{
+.header2 ul li a:hover{
     background-color: #0d6efd;
 }
 
+
+
 /* Carousel home*/
 #Carousel-main img{
-    height: 600px;
+    height: 700px;
     width: 100vw;
 }
 
@@ -107,6 +96,9 @@ a{
     width: 20%;
     height: 2px;
     background-color: #100051;
+}
+.about-img img{
+    width: 100%;
 }
 
 /*Achivement*/
@@ -152,6 +144,23 @@ a{
     background-color: #100051;
 }
 
+/*Mission- Motto*/
+.mission-motto .row{
+    margin: 0px;
+}
+.mission-motto .row div{
+    padding: 55px;
+}
+.motto{
+    background-color: #f79431;
+}
+.mission{
+    background-color: #ffffff;
+}
+.what-you-get{
+    background-color: #;
+}
+
 /*Footer*/
 .footer1{
     background-color:#100051 ;
@@ -168,4 +177,14 @@ a{
 }
 .footer1 ul li a:hover{
     background-color: #0d6efd;
+}
+
+.searching{
+    outline: none;
+    border: none;
+}
+
+.searching:focus{
+    outline: none !important;
+    border:none;
 }
