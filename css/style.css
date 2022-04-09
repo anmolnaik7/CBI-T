@@ -19,9 +19,11 @@ a{
     padding-right: 10px;
 }
 .header1{
-    height: 120px;
-    width: 90%;
     margin: auto;
+}
+.header1 .navbar-toggler{
+    background-color: #00007c;
+    color: white;
 }
 .logo img{
     height: 100%;
@@ -42,6 +44,7 @@ a{
 }
 .header2{
     background-color: #100051;
+    width: 100%;
 }
 .header2 ul{
     list-style: none;
@@ -294,5 +297,6 @@ a{
     }
     .header1 .flag{
         visibility: hidden;
+        display: none;
     }
 }
