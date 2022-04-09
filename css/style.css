@@ -14,8 +14,14 @@ a{
     height: 120px;
     
 }
+
+.flex-row h5{
+    padding-right: 10px;
+}
 .header1{
     height: 120px;
+    width: 90%;
+    margin: auto;
 }
 .logo img{
     height: 100%;
@@ -240,12 +246,7 @@ a{
     padding: 55px 55px 75px 55px;
     height: 100%;
 }
-.mission-icon{
-    display: block;
-    position: absolute;
-    font-size: 100px;
-    bottom: -20px;
-}
+
 .mission-motto h5{
     text-transform: uppercase;
     font-weight: bold;
@@ -285,4 +286,13 @@ a{
 .searching:focus{
     outline: none !important;
     border:none;
+}
+
+@media (max-width: 756px){
+    .header2 ul li a{
+        font-size: 16px;
+    }
+    .header1 .flag{
+        visibility: hidden;
+    }
 }
