@@ -25,6 +25,9 @@ a{
     background-color: #00007c;
     color: white;
 }
+.header1{
+    padding: 0px !important;
+}
 .logo img{
     height: 100%;
     margin-right: 10px;
